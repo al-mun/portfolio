@@ -56,7 +56,7 @@ function copyToClipboard() {
 
   navigator.clipboard.writeText(copyText)
     .then(() => {
-      copyNotification.style.display = "block";
+      copyNotification.style.display = "grid";
       setTimeout(() => {
         copyNotification.style.display = "none";
       }, 2000);

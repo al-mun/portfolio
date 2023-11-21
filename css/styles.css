@@ -708,11 +708,15 @@ contact page
   margin: 2rem auto;
   max-width: 400px;
 }
+.copyNotification-container{
+  display: grid;
+  justify-items: end;
+}
 
 .copied-notification {
   display: none;
   position: absolute;
-  left: 50%;
+  font-family: 'Nanum Gothic', sans-serif;
   transform: translateX(-50%);
   background-color: #00d4f0;
   color: #000;
