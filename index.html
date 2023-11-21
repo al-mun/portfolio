@@ -45,7 +45,8 @@
       <!-- nav-links -->
       <ul class="sidebar-links">
         <li><a href="index.html">home</a></li>
-        <li><a href="#projects" class="closeSidebar">Experience</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#projects" class="closeSidebar">projects</a></li>
         <li><a href="#about" class="closeSidebar1">about</a></li>
         <li><a href="contact.php">contact</a></li>
       </ul>
@@ -81,7 +82,7 @@
           <dl id="me">I'm Alejandro</dl>
           <dl id="webdev">a Software Engineer</dl>
         </div>
-        <a href="mailto:alejandro0munoz@gmail.com" class="btn hero-btn">Email me</a>
+        <a href="#experience" class="btn hero-btn">View Experience</a>
         <!-- social icons -->
         <ul class="social-icons hero-icons">
           <li>
@@ -351,7 +352,19 @@
         <p>
           Feel free to contact me using the links below or download my resume. Thanks for stopping by.
         </p>
-
+        <h4>
+          Email me at:
+        </h4>
+        <a href="mailto:alejandro0munoz@gmail.com" class="btn" id="copyText">alejandro0munoz@gmail.com</a>
+        <i class="fa-solid fa-copy btn" onclick="copyToClipboard()"></i>
+        <div class="copied-notification" id="copyNotification">Email copied to clipboard!</div>
+        <br>
+        <br>
+        <h4>Message Me on</h4>
+        <a class="btn" href="https://www.linkedin.com/in/almun/" target="_blank">LinkedIn</a>
+        <br>
+        <br>
+        <h4>View my resume</h4>
         <a href="files/Alejandro_Resume.pdf" target="_blank" class="btn">My resume</a>
       </article>
     </div>

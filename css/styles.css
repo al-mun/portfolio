@@ -123,14 +123,12 @@ p {
 
 /*  global classes */
 .btn {
-  text-transform: uppercase;
   background: #54e1e6;
   color: #15180a;
   padding: 0.375rem 0.75rem;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.10em;
   display: inline-block;
   font-weight: 700;
-  -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
   font-size: 0.875rem;
   border: 1.5px solid black;
@@ -140,7 +138,7 @@ p {
 }
 
 .btn:hover {
-  color: white;
+  color: #fff;
   background: #15180a;
 }
 
@@ -223,7 +221,7 @@ Navbar
 
   .nav-links {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     justify-items: center;
     align-items: center;
     column-gap: 2rem;
@@ -447,10 +445,6 @@ dl {
   color: #4d6275;
 }
 
-.hero-btn {
-  margin-top: 1.25rem;
-}
-
 @media screen and (min-width: 992px) {
   .intro {
     grid-template-columns: repeat(1, auto);
@@ -669,13 +663,23 @@ Footer
 Single Page
 ===============
 */
-.single-page {
-  background: #54e1e6;
+.contact-page {
+  background: #ffffff;
   min-height: calc(100vh - 5rem - 198px);
+}
+
+.contact-page-options{
+  background-color: #00bcd4;
+  border-radius: 10px;
+  padding: 6%;
+  font-size: 1rem;
 }
 
 .page-info {
   max-width: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2%;
 }
 
 .page-info a {
@@ -703,6 +707,18 @@ contact page
   background-color: #54e1e6;
   margin: 2rem auto;
   max-width: 400px;
+}
+
+.copied-notification {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00d4f0;
+  color: #000;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /*

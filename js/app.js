@@ -40,6 +40,29 @@ $("#hi").fadeIn(3000);
 $("#comma").fadeIn(6000);
 $("#me").fadeIn(7000);
 $("#webdev").fadeIn(8000);
-
-//$(".section-about").
 });
+
+function copyToClipboard() {
+  var copyText = document.getElementById("copyText").innerText;
+  navigator.clipboard.writeText(copyText)
+    .catch(err => {
+      console.error('Unable to copy to clipboard', err);
+    });
+}
+
+function copyToClipboard() {
+  var copyText = document.getElementById("copyText").innerText;
+  var copyNotification = document.getElementById("copyNotification");
+
+  navigator.clipboard.writeText(copyText)
+    .then(() => {
+      copyNotification.style.display = "block";
+      setTimeout(() => {
+        copyNotification.style.display = "none";
+      }, 2000);
+    })
+    .catch(err => {
+      console.error('Unable to copy to clipboard', err);
+    });
+}
+
