@@ -28,6 +28,7 @@
       <!-- nav-links -->
       <ul class="nav-links">
         <li><a href="index.html">home</a></li>
+        <li><a href="#experience">experience</a></li>
         <li><a href="#projects">projects</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="contact.php">contact</a></li>
@@ -44,7 +45,7 @@
       <!-- nav-links -->
       <ul class="sidebar-links">
         <li><a href="index.html">home</a></li>
-        <li><a href="#projects" class="closeSidebar">projects</a></li>
+        <li><a href="#projects" class="closeSidebar">Experience</a></li>
         <li><a href="#about" class="closeSidebar1">about</a></li>
         <li><a href="contact.php">contact</a></li>
       </ul>
@@ -61,7 +62,7 @@
           </a>
         </li>
         <li>
-          <a href="mailto:alejandro@munoza.com" class="social-icon">
+          <a href="mailto:alejandro0munoz@gmail.com" class="social-icon">
             <i class="fas fa-envelope"></i>
           </a>
         </li>
@@ -77,12 +78,10 @@
           <div class="stars"></div>
           <div class="twinkling"></div>
           <dl id="hi">Hi,</dl>
-          <!--<dl id="comma">,</dl> -->
           <dl id="me">I'm Alejandro</dl>
-          <dl id="webdev">a web developer</dl>
-
+          <dl id="webdev">a Software Engineer</dl>
         </div>
-        <a href="contact.php" class="btn hero-btn">Contact me</a>
+        <a href="mailto:alejandro0munoz@gmail.com" class="btn hero-btn">Email me</a>
         <!-- social icons -->
         <ul class="social-icons hero-icons">
           <li>
@@ -96,26 +95,115 @@
             </a>
           </li>
           <li>
-            <a href="mailto:alejandro@munoza.com" class="social-icon">
+            <a href="mailto:alejandro0munoz@gmail.com" class="social-icon">
               <i class="fas fa-envelope"></i>
             </a>
           </li>
         </ul>
       </article>
-      <!-- <article>
-          <div class="hero">
-            <img src="/images/Me.svg" alt="hello" id="svg">
-          </div>
-        </article> -->
-
     </div>
   </header>
-  <section class="section projects" id="projects">
+  <section class="section projects" id="experience">
     <!-- section title -->
     <div class="section-title">
-      <h2>Projects</h2>
+      <h2>Professional Experience</h2>
       <p class="projects-text">
-        These are completed projects that I've worked on.
+        Companies and Products that I've contributed to
+      </p>
+    </div>
+    <section class="section">
+      <div class="section-center projects-page-center">
+        <article class="single-project">
+          <div class="project-container">
+            <a href="https://www.chenmed.com/" target="_blank">
+              <img src="images/chenmed.png" alt="single project" />
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>ChenMed</h4>
+            <h5>Aug 2022 - Dec 2023</h5>
+            <p>At ChenMed, I collaborated on various teams on both frontend and backend projects. Most projects involved
+              maintaining legacy applications and later updating them to the latest standards and technologies.
+            </p>
+            <h5>Technologies Applied:</h5>
+            <ul class="tags-container">
+              <li class="tag">
+                <div>React</div>
+              </li>
+              <li class="tag">TypeScript</li>
+              <li class="tag">Kendo</li>
+              <li class="tag">Java 21</li>
+            </ul>
+            <ul class="tags-container">
+              <li class="tag">MongoDB</li>
+              <li class="tag">Swagger</li>
+              <li class="tag">Kakfa</li>
+            </ul>
+            <div class="project-footer">
+            </div>
+          </div>
+        </article>
+        <article class="single-project">
+          <div class="project-container">
+            <a href="https://www.intunehealth.com/" target="_blank">
+              <img src="images/ith.png" alt="single project" />
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>IntuneHealth</h4>
+            <h5>Aug 2022 - Dec 2022</h5>
+            <p>For IntuneHealth I contributed to the overhaul of the mobile app. It was transitioned to React Native,
+              and used on both Android and iOS.
+            </p>
+            <h5>Technologies Applied:</h5>
+            <ul class="tags-container">
+              <li class="tag">
+                <div>React Native</div>
+              </li>
+              <li class="tag">TypeScript</li>
+              <li class="tag">Material UI</li>
+            </ul>
+            <ul class="tags-container">
+              <li class="tag">Auth0</li>
+              <li class="tag">OpenTok</li>
+            </ul>
+            <div class="project-footer">
+            </div>
+          </div>
+        </article>
+        <article class="single-project">
+          <div class="project-container">
+            <a href="https://www.chenmed.com/" target="_blank">
+              <img src="images/tc.png" alt="single project" />
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>TeamCare</h4>
+            <h5>Aug 2022 - Dec 2022</h5>
+            <p>TeamCare is a mobile app where users can view their medications, appointments and have video calls with
+              their primary doctor.</p>
+            <h5>Technologies Applied:</h5>
+            <ul class="tags-container">
+              <li class="tag">
+                <div>React</div>
+              </li>
+              <li class="tag">Material UI</li>
+              <li class="tag">Auth0</li>
+            </ul>
+            <ul class="tags-container">
+              <li class="tag">Go Native</li>
+            </ul>
+            </p>
+            <div class="project-footer">
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <div class="section-title" id="projects">
+      <h2>Personal Projects</h2>
+      <p class="projects-text">
+        These are personal projects that I've worked on.
       </p>
     </div>
     <section class="section">
@@ -131,9 +219,10 @@
           </div>
           <div class="project-details">
             <h4>Budget Buddy - React</h4>
-            <ul class="ul">
-              <li>HTML, CSS, JSX, JavaScript</li>
-              <li>Reactjs - Props, functional components, Hooks</li>
+            <ul class="tags-container">
+              <li class="tag">React</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">Hooks</li>
             </ul>
             <p><b>Challenges:</b> The Edit feature, and adding up all expenses in any card created.</p>
             <p>Using JavaScript and React, I wanted to create an application that makes budgeting simple with
@@ -141,7 +230,6 @@
               The user can add incomes and expenses to preset categories, or create their own.
             </p>
             <div class="project-footer">
-
               <span class="project-footer-btns">
                 <a href="https://munoza.com/budgetbuddy" target="_blank">Demo</a>
               </span>
@@ -154,7 +242,6 @@
             </div>
           </div>
         </article>
-        <!-- single project -->
         <article class="single-project">
           <div class="project-container">
             <a href="https://www.munoza.com/vtasty" target="_blank">
@@ -166,24 +253,20 @@
           </div>
           <div class="project-details">
             <h4>VTasty Recipe Site</h4>
-            <ul class="ul">
-              <li>HTML, CSS, JSX, JavaScript</li>
-              <li>Reactjs - Props, functional components, Hooks</li>
-              <li>Modals</li>
-
+            <ul class="tags-container">
+              <li class="tag">React</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">Hooks</li>
             </ul>
             <p><b>Challenges:</b> Getting the modal to display the recipe clicked.</p>
-
             <p>I created a React App where I could store recipes that I learned. The app features
               separate components for the menu, data, and nav menu as well as a modal that displays recipe steps in a
               modal using the hook useState.
             </p>
             <div class="project-footer">
-
               <span class="project-footer-btns">
                 <a href="https://munoza.com/vtasty" target="_blank">Demo</a>
               </span>
-
               <span>
                 <i class="fab fa-github"></i>
               </span>
@@ -193,13 +276,12 @@
             </div>
           </div>
         </article>
-        <!--End of Single Project-->
         <article class="single-project">
           <div class="project-container">
             <a href="https://www.munoza.com/carlos" target="_blank">
               <img src="images/p1.JPG" alt="single project" />
             </a>
-            <div class="project-icon-container2">
+            <div class="two-icons-container">
               <a class="project-icon-2">
                 <i class="fab fa-css3"></i>
               </a>
@@ -210,22 +292,23 @@
           </div>
           <div class="project-details">
             <h4>Artist's Website</h4>
-            <p>
-            <ul class="ul">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>PHP</li>
-              <li>phpMyAdmin</li>
-              <li>Database</li>
-              <li>CRUD</li>
+            <ul class="tags-container">
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+              <li class="tag">JavaScript</li>
+            </ul>
+            <ul class="tags-container">
+              <li class="tag">PHP</li>
+              <li class="tag">phpMyAdmin</li>
+              <li class="tag">Database</li>
+            </ul>
+            <ul class="tags-container">
+              <li class="tag">CRUD</li>
             </ul>
             <p><b>Challenges:</b> Resizing and uploading feature was particularily difficult to implement.</p>
-            This Artist portfolio features an upload function which inserts files into a database
-            through PHP. The user can also replace, or delete images from the database.
-            </p>
+            <p>This Artist portfolio features an upload function which inserts files into a database
+              through PHP. The user can also replace, or delete images from the database.</p>
             <div class="project-footer">
-
               <span class="project-footer-btns">
                 <a href="https://munoza.com/carlos" target="_blank">Demo</a></span>
               <span>
@@ -234,42 +317,12 @@
               <span class="project-footer-btns">
                 <a href="https://github.com/alejandro-mun/carlos" target="_blank">source code</a>
               </span>
-
             </div>
           </div>
         </article>
-
-        <!-- single project -->
-        <!-- <article class="single-project">
-            <div class="project-container">
-              <a href="https://www.munoza.com/budget" target="_blank">
-              <img src="images/p7.JPG" alt="single project" />
-            </a>
-            <a class="project-icon-single">
-              <i class="fab fa-js-square"></i>
-            </a>
-              </div>
-              <div class="project-details">
-                <h4>Budget App</h4>
-                <p>
-                    Using JavaScript and React, I wanted to create an application that makes budgeting simple with straightforward results.
-                    The user can add incomes and expenses to preset categories, or create their own. 
-                </p>
-                <div class="project-footer">
-                  <span>
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <a href="https://github.com/alejandro-mun/budget" target="_blank">source code</a>
-                </div>
-              </div>
-            </article> -->
-
       </div>
     </section>
   </section>
-  <!-- end of projects -->
-
-  <!-- about -->
   <section class="section about" id="about">
     <div class="section-center about-center">
       <!-- about img -->
@@ -285,11 +338,13 @@
         <!--end of section title -->
         <p>
           Hi, I'm Alejandro Munoz. Based in South Florida, I am a software engineer specialized in front end
-          development. I've helped build some incredible products in my career and if there's one thing I know, it's
+          development. I graduated from Broward College in 2020 with a Bachelor of Applied Science degree. I've helped
+          build some incredible products in my career and if there's one thing I know, it's
           that you can never stop learning.
         </p>
         <p>
-          When I'm not writing code, I help advocate for safer streets as part of Better Streets Broward, a grassroots
+          When I'm not writing code, I help advocate for safer streets as part of <a
+            href="http://bento.me/betterstreetsbroward" target="_blank">Better Streets Broward</a>, a grassroots
           movement made up of neighbors dedicated to change at the local level. Some of my other hobbies include:
           biking, astronomy, and travel.
         </p>
@@ -301,8 +356,6 @@
       </article>
     </div>
   </section>
-  <!-- end of about -->
-  <!-- footer -->
   <footer class="footer">
     <!-- social icons -->
     <ul class="social-icons-centered hero-icons">
@@ -317,16 +370,15 @@
         </a>
       </li>
       <li>
-        <a href="mailto:alejandro@munoza.com" class="social-icon">
+        <a href="mailto:alejandro0munoz@gmail.com" class="social-icon">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
     </ul>
 
-    <p>&copy; <span id="date"></span> Alejandro Munoz.</p>
+    <p>&copy; <span id="date"></span> Alejandro Munoz</p>
   </footer>
   <script src="js/app.js"></script>
-
 </body>
 
 </html>
