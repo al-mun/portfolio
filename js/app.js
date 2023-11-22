@@ -8,6 +8,7 @@ const sidebar = document.querySelector("#sidebar");
 const date = document.querySelector("#date");
 const closeSidebar = document.querySelector(".closeSidebar");
 const closeSidebar1 = document.querySelector(".closeSidebar1")
+const closeSidebar2 = document.querySelector(".closeSidebar2")
 
 closeSidebar.addEventListener("click", function(){
   sidebar.classList.remove("show-sidebar");
@@ -15,10 +16,13 @@ closeSidebar.addEventListener("click", function(){
 closeSidebar1.addEventListener("click", function(){
   sidebar.classList.remove("show-sidebar");
 })
+closeSidebar2.addEventListener("click", function(){
+  sidebar.classList.remove("show-sidebar");
+})
 
 // add fixed class to navbar
 window.addEventListener("scroll",  ()=>{
-  if (window.pageYOffset > 80) {
+  if (window.scrollY > 80) {
     navbar.classList.add("navbar-fixed");
   } else {   
     navbar.classList.remove("navbar-fixed");
