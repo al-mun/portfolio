@@ -61,18 +61,17 @@
       </h2>
       <br>
       <div class="contact-page-options">
-        <h4>
-          Email me at:
-        </h4>
-        <a href="mailto:alejandro0munoz@gmail.com" class="btn" id="copyText">alejandro0munoz@gmail.com</a>
-        <i class="fa-solid fa-copy btn" onclick="copyToClipboard()"></i>
-        <div class="copied-notification" id="copyNotification">Email to clipboard!</div>
-      </div>
+        <h4>Email me at:</h4>
+        <div class="email-copy">
+          <button href="mailto:alejandro0munoz@gmail.com" class="btn" id="copyText">alejandro0munoz@gmail.com</button><br><br>
+          <i class="fa-solid fa-copy btn" onclick="copyToClipboard()"></i>
+        </div>
+        <div class="copied-notification" id="copyNotification">Email copied to clipboard!</div>
+        </div>
       <br>
       <div class="contact-page-options">
-        <h4>Message Me on</h4>
+        <h4>Message Me on:</h4>
         <button class="btn" href="https://www.linkedin.com/in/almun/" target="_blank">LinkedIn</button>
-        </a>
       </div>
       <br>
       <div class="contact-page-options">
