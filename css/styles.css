@@ -150,7 +150,6 @@ p {
 
 /* section */
 .section {
-  padding: 5rem 0;
   display: grid;
   place-content: center;
 }
@@ -639,35 +638,6 @@ Projects
 
 /*
 =============== 
-Footer
-===============
-*/
-.footer {
-  padding-bottom: 6rem;
-  background: #222;
-  display: grid;
-  place-items: center;
-}
-
-.footer p {
-  font-size: 1.25rem;
-  text-transform: capitalize;
-}
-
-.footer .social-icons {
-  margin-bottom: 2rem;
-}
-
-.footer .social-icon {
-  color: #54e1e6;
-}
-
-.footer .social-icon:hover {
-  color: #327474;
-}
-
-/*
-=============== 
 Single Page
 ===============
 */
@@ -892,4 +862,35 @@ Projects Page
   gap: 3rem;
   justify-content: center;
   justify-items: center;
+}
+
+/*
+=============== 
+Footer
+===============
+*/
+.footer {
+  margin-top: 5rem;
+  padding-bottom: 4rem;
+  background: #222;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+
+.footer .social-icons {
+  margin-bottom: 2rem;
+}
+
+.footer .social-icon {
+  color: #54e1e6;
+}
+
+.footer .social-icon:hover {
+  color: #327474;
 }
